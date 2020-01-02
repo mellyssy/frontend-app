@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
-import ItemsTable from "./itemsTable";
+import ItemsTable from "./ItemsTable";
 
 const ITEMS_URL = 'http://134.209.138.34/items';
 

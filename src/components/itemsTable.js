@@ -1,12 +1,14 @@
 import React from 'react';
-import SmallCard from './smallCard';
+import SmallCard from './SmallCard';
+
+import './ItemsTable.css'
 
 const ItemsTable = (props) => {
     const cards = props.data.map((item) => {
         return <SmallCard key={item.id} item={item} />
     });
     return (
-        <section>
+        <section className='cards-grid'>
             {cards}
         </section>
     )
