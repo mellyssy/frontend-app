@@ -1,0 +1,44 @@
+.fullCard-container {
+    margin: 50px auto;
+    max-width: 640px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.slider {
+    max-width: 640px;
+    height: 310px;
+    background-color: black;
+}
+
+.slider img {
+    height: 310px;
+}
+
+.fullCard-content {
+    margin-left: 20px;
+    padding-right: 15px;
+}
+
+.fullCard-header {
+    margin-bottom: 5px;
+}
+
+.fullCard-subheader {
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    color: #6f6f6f;
+}
+
+.fullCard-description {
+    margin: 40px 0;
+}
+
+.fullCard-price {
+    font-weight: bold;
+    font-size: 20px;
+}

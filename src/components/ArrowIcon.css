@@ -1,0 +1,26 @@
+.arrow-icon {
+    cursor: pointer;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+}
+
+.left {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+
+    transform: rotate(-45deg);
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.right {
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+
+    transform: rotate(45deg);
+    margin-left: 5px;
+    margin-right: 10px;
+}
