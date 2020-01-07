@@ -6,3 +6,8 @@
 
     padding: 20px;
 }
+
+.cardLink {
+    color: black;
+    text-decoration: none;
+}

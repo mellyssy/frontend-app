@@ -9,3 +9,11 @@
   color: white;
   text-align: center;
 }
+
+.link {
+  color: white;
+}
+
+.link:visited {
+  color: white;
+}

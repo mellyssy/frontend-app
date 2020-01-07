@@ -12,15 +12,14 @@ function App() {
   return (
       <div>
       <header className="App">
-        <h1>Все предложения</h1>
+        <h1>Объявления</h1>
       </header>
         <Switch>
           <Route exact path='/' component={ItemsTable} />
           <Route path={`${pathname}`} component={CardDetails} />
         </Switch>  
       <footer className='App'>
-        <p>Ксения Токарева</p>
-        <Link to='/'>Все предложения</Link>
+        <Link to='/' className='link'>Вернуться к списку</Link>
       </footer>
     </div>
   );
