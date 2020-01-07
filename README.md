@@ -14,4 +14,4 @@
 
 ## Запуск
 
-`npm start`
+`npm run start`

@@ -17,6 +17,7 @@ function useFetch(url) {
             }
         };
         fetchItems();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return data.items;
