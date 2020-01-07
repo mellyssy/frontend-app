@@ -12,8 +12,6 @@ const CardDetails = (props) => {
 
     let { pathname } = props.location;
 
-    console.log(pathname);
-
     const [ card ] = useFetch(`http://134.209.138.34${pathname}`);
 
     if (!card) {
@@ -28,8 +26,9 @@ const CardDetails = (props) => {
             <section className='fullCard-container'>
                 <div className='slider'>
                     <Carousel
-                        itemWidth={640}
+                        centered
                         infinite
+                        slidesPerPage={1}
                         arrowLeft={<ArrowIcon arrow_direction='arrow left' />}
                         arrowRight={<ArrowIcon arrow_direction='arrow right' />}
                         addArrowClickHandler>
