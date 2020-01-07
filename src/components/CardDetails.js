@@ -1,13 +1,20 @@
 import React from 'react';
+
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+
 import ArrowIcon from './ArrowIcon';
 import useFetch from './useFetch';
+
 import './CardDetails.css';
 
 const CardDetails = (props) => {
 
-    const [ card ] = useFetch('http://134.209.138.34/item/1849621339');
+    let { pathname } = props.location;
+
+    console.log(pathname);
+
+    const [ card ] = useFetch(`http://134.209.138.34${pathname}`);
 
     if (!card) {
         return null;
